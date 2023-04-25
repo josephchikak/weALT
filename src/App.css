@@ -1,0 +1,45 @@
+*,
+html,
+body{
+
+
+}
+
+.label{
+
+  color:white;
+  background: #494949;
+  width: 100vw;
+  font-size: 5rem;
+  /* white-space: nowrap; */
+  padding: 15px;
+
+}
+
+.canvas{
+  height: 90vh;
+  overflow: hidden;
+  position: fixed;
+  background: transparent;
+}
+
+.nav{
+  padding: 20px
+}
+
+#contact{
+  background-color: #eb3434;
+  border: 2px solid black
+}
+
+.app{
+  background: url(/weALTt.PNG);
+  background-size: cover;
+  background-position: center;
+
+}
+
+.text{
+  user-select: none;
+  position: fixed;
+}
