@@ -4,11 +4,11 @@ import '../App.css'
 const Navigation = () => {
   return (
     <div
-    className='w-full bg-white h-[50px] flex justify-center gap-4 items-center  border-y-2 border-black cursor-pointer'>
-        <nav className=''>
+    className='w-full bg-black h-[50px] flex justify-center gap-4 items-center  border-y-2 border-black'>
+        <nav className=' cursor-pointer'>
             <ul className='flex flex-row'>
-                <li className='nav'>Home</li>
-                <li className='nav'>About</li>
+                <li className='nav text-white'>Home</li>
+                <li className='nav text-white'>About</li>
                 <li id='contact' className='nav'>Contact us</li>
             </ul>
         </nav>

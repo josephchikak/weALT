@@ -9,11 +9,13 @@ import Texts from './Texts'
 // import { Text } from "@react-three/drei"
 import Navigation from './components/Navigation'
 import { Html } from '@react-three/drei'
+import About from './components/About'
 
 
 
 function App() {
   const [count, setCount] = useState(0)
+  // bg-[#ebe534]
 
   return (
     <>
@@ -34,14 +36,8 @@ function App() {
           </Canvas>
         </div>
        
-    </div>
-    
-     
-
-    </div>
-   
-
-
+      </div>
+    </div>   
     </>
  
   )

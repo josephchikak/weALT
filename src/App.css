@@ -1,19 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+
 *,
 html,
 body{
-
+  font-family: 'Poppins', sans-serif;
 
 }
 
 .label{
-
-  color:white;
+  color:rgb(255, 255, 255);
   background: #494949;
   width: 100vw;
   font-size: 5rem;
   /* white-space: nowrap; */
   padding: 15px;
-
 }
 
 .canvas{
@@ -24,12 +24,15 @@ body{
 }
 
 .nav{
-  padding: 20px
+  padding: 20px;
+  /* border-left: 2px solid black; */
+  height: 6vh
 }
 
 #contact{
   background-color: #eb3434;
-  border: 2px solid black
+  border: 2px solid black;
+  height: 7vh;
 }
 
 .app{
@@ -42,4 +45,14 @@ body{
 .text{
   user-select: none;
   position: fixed;
+}
+/* 
+#about{
+  width: 100vw;
+  height: 100vh;
+} */
+
+.nav:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
